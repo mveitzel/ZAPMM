@@ -1,0 +1,19 @@
+#!/bin/bash
+#PBS -N COWS
+#PBS -l nodes=1:copper:ppn=24
+#PBS -l walltime=10:00:00
+
+HOMEDIR=/d/04/meitzel01
+RUNDIR=$HOMEDIR/singlenode
+JAVA=$HOMEDIR/jre1.8.0_131/bin/java
+LOGO=$HOMEDIR/netlogo-5.2.1/NetLogo.jar
+MODEL=ZAPMM-2018-06-15_WithTimers.nlogo
+EXPNAME=OT_feed_vary_extr
+NUMCORES=24
+
+#Remember to comment out the profiler extension in the .nlogo file
+#Shouldn't need to edit below here
+uptime
+cd $RUNDIR
+$JAVA -Xmx1024m -Dfile.encoding=UTF-8 -classpath $LOGO org.nlogo.headless.Main --model $MODEL --experiment $EXPNAME --table ${EXPNAME}.dat --threads $NUMCORES
+uptime

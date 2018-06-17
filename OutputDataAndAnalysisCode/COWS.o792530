@@ -1,0 +1,69 @@
+ 01:32:38 up 122 days,  5:46,  0 users,  load average: 14.99, 14.93, 14.84
+Test: test-set-global-variables
+Finished test-set-global-variables (31 tests)
+Test: test-set-patch-variables
+Finished test-set-patch-variables (11 tests)
+Test: test-configure-fences
+Finished test-configure-fences (19 tests)
+Test: test-calculate-landscape-metrics
+Finished test-calculate-landscape-metrics (27 tests)
+Test: test-set-faster-growing-patches
+Finished test-set-faster-growing-patches (4 tests)
+Test: test-make-crops
+Finished test-make-crops (10 tests)
+Test: test-make-crop-clumps
+Finished test-make-crop-clumps (6 tests)
+Test: test-setup-cow
+Finished test-setup-cow (9 tests)
+Test: test-finish-running-and-clean-up
+Finished test-finish-running-and-clean-up (5 tests)
+Test: test-go
+Finished test-go (0 tests)
+Test: test-update-yearly-time-events
+Finished test-update-yearly-time-events (6 tests)
+Test: test-set-subsidized-cows
+Finished test-set-subsidized-cows (2 tests)
+Test: test-get-new-rainfall
+Finished test-get-new-rainfall (7 tests)
+Test: test-set-new-growth-rates
+Finished test-set-new-growth-rates (36 tests)
+Test: test-update-max-min
+Finished test-update-max-min (4 tests)
+Test: test-update-woodland-available-biomass
+Finished test-update-woodland-available-biomass (12 tests)
+Test: test-convert-cow-energy-pool-to-body-mass-change
+Finished test-convert-cow-energy-pool-to-body-mass-change (12 tests)
+Test: test-update-crops
+Finished test-update-crops (0 tests)
+Test: test-update-crop-color-symbol
+Finished test-update-crop-color-symbol (7 tests)
+Test: test-plough
+Finished test-plough (11 tests)
+Test: test-harvest
+Finished test-harvest (22 tests)
+Test: test-update-cows
+Finished test-update-cows (44 tests)
+Test: test-calculate-livestock-reproduction-rate-per-tick
+Finished test-calculate-livestock-reproduction-rate-per-tick (3 tests)
+Test: test-find-available-cows
+Finished test-find-available-cows (34 tests)
+Test: test-move
+Finished test-move (16 tests)
+Test: test-find-nearby-patch-to-eat
+Finished test-find-nearby-patch-to-eat (4 tests)
+Test: test-fence-effectiveness-per-tick
+Finished test-fence-effectiveness-per-tick (3 tests)
+Test: test-consume
+Finished test-consume (11 tests)
+Test: test-get-hungrier
+Finished test-get-hungrier (15 tests)
+Test: test-update-fences
+Finished test-update-fences (15 tests)
+Test: test-reproduce-cows
+Finished test-reproduce-cows (17 tests)
+Test: test-calculate-average-contiguous-crop-cluster-size
+Finished test-calculate-average-contiguous-crop-cluster-size (4 tests)
+407 tests executed
+No errors.
+**All tests passed**
+ 01:36:43 up 122 days,  5:50,  0 users,  load average: 16.10, 15.55, 15.11

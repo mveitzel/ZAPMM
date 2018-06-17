@@ -1,0 +1,8 @@
+"BehaviorSpace results (NetLogo 5.2.1)"
+"ZAPMM-2018-06-15_WithTimers.nlogo"
+"RunSoftwareTests"
+"06/16/2018 01:36:34:380 +0000"
+"min-pxcor","max-pxcor","min-pycor","max-pycor"
+"0","50","0","50"
+"[run number]","how-long-to-store-grain","subsidy","model-mode","cow-proportion-to-save","use-muonde-thresholds","rain-site","rainfall-type","key-resources","muonde-projects","invincible-fences","proportion-crops","times-per-day-farmers-move-cows","clumpiness","[step]","number-of-tests-run","error-count"
+"1","2","""transport""","""SoftwareTests""","0.45","false","""Average""","""statistical-extreme""","25","20","false","33","1","0","0","407","0"

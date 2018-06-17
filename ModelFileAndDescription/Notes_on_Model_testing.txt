@@ -1,0 +1,21 @@
+Model testing/checking checklist: to-do after making model changes
+
+*check that the model compiles (syntactically correct, in NetLogo click the 'check' button)
+*run software tests (all must pass, run setup in model-mode "SofwareTests")
+*do behavior checks (tracking in spreadsheet, while running the model and watching display)
+*run a small behaviorspace on local machine (~8 runs, checking for behaviorspace variable name errors, etc)
+*run small behaviorspace on cluster
+*run all behaviorspaces on cluster
+*check the .e files for errors
+*pull wall-time numbers from the .o files and put them in a run-time summary spreadsheet
+*email data, cleanup folder on cluster
+*extract and open each dat file in spreadsheet and calculate model internal time in minutes in summary spreadsheet
+*examine results for overall run time, overhead, overhead per core, etc (in run-time summary spreadsheet)
+*pull csvs into R and put them together (output one enormous csv of all runs together)
+*look at distribution of run times (R)
+*check distributions of variables (proportion crops, underlying variables, clumpiness vs moran's I)
+*check some combos of variables like invincible fences and crop eaten. (R)
+*check calibration results (R)
+*check sensitivity results (R)
+
+
