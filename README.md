@@ -21,35 +21,27 @@ Files for running on cluster:
 -----------------------------
 RunSoftwareTests.pbs             Runs the behaviorspace with the software unit tests to confirm that they pass
 ShortRunForTesting.pbs           Runs a small 8-model combination to confirm that the model works on the cluster
-MT_nosub.pbs                     Behaviorspace with Muonde thresholds and no subsidy
-MT_sub.pbs                       Behaviorspace with Muonde thresholds and feed/transport subsidy for cows
-OT_feed_vary_extr.pbs            Behaviorspace with minimal thresholds, feed subsidy, and extreme rainfall models
-OT_feed_vary.pbs                 Behaviorspace with minimal thresholds, feed subsidy, and historical rainfall models
-OT_nosub_const.pbs               Behaviorspace with minimal thresholds, no subsidy/constant rainfall
-OT_nosub_vary.pbs                Behaviorspace with minimal thresholds, no subsidy, and all varying rainfall models
-OT_tran_vary_extr.pbs            Behaviorspace with minimal thresholds, transport subsidy, and extreme rainfall models
-OT_tran_vary.pbs                 Behaviorspace with minimal thresholds, transport subsidy, and historical rainfall models
+MT_nosub.pbs                     Runs models with Muonde thresholds and no subsidy
+MT_sub.pbs                       Runs models with Muonde thresholds and feed/transport subsidy for cows
+OT_feed_vary_extr.pbs            Runs models with minimal thresholds, feed subsidy, and extreme rainfall models
+OT_feed_vary.pbs                 Runs models with minimal thresholds, feed subsidy, and historical rainfall models
+OT_nosub_const.pbs               Runs models with minimal thresholds, no subsidy/constant rainfall
+OT_nosub_vary.pbs                Runs models with minimal thresholds, no subsidy, and all varying rainfall models
+OT_tran_vary_extr.pbs            Runs models with minimal thresholds, transport subsidy, and extreme rainfall models
+OT_tran_vary.pbs                 Runs models with minimal thresholds, transport subsidy, and historical rainfall models
 email_data.sh                    Script that emails the data to the researcher
 cleanup.sh                       Script that cleans up the folder after a run of the behaviorspace experiments
 computer_cluster_run_notes.txt   Notes on how what was needed to set NetLogo up on SabalCore's cluster
 
+
 Output data and R analysis code:
 --------------------------------
-ZAPMM_BehaviorTesting_2018-05-13.xls      A spreadsheet summarizing model real-time behavior checks
+ZAPMM_BehaviorTesting_2018-05-13.xls  A spreadsheet summarizing model real-time behavior checks
 RunTimeSummary2018Jun15.xls           Summary spreadsheet of internal model run times and cluster run times
 Exp_2018_06_15_Analysis_forGitHub.R   R script for assembling and analyzing the model output
 ModelList.txt                         List of model names for input into R analysis
-COWS.o* files                         Output and run times for each model
-RunSoftwareTests.dat                  Raw output from NetLogo for behaviorspace run
-ShortRunForTesting.dat                Raw output from NetLogo for behaviorspace run
-MT_nosub.dat                          Raw output from NetLogo for behaviorspace run
-MT_sub.dat                            Raw output from NetLogo for behaviorspace run
-OT_feed_vary.dat                      Raw output from NetLogo for behaviorspace run
-OT_feed_vary_extr.dat                 Raw output from NetLogo for behaviorspace run
-OT_nosub_const.dat                    Raw output from NetLogo for behaviorspace run
-OT_nosub_vary.dat                     Raw output from NetLogo for behaviorspace run
-OT_tran_vary.dat                      Raw output from NetLogo for behaviorspace run
-OT_tran_vary_extr.dat                 Raw output from NetLogo for behaviorspace run
+COWS.o* files (10)                    Output and run times for each behaviorspace run
+*.dat files (10)                      Raw output from NetLogo for each behaviorspace run
 Exp_2018_05_15.csv                    Results of all behaviorspaces compiled in R
 
 
