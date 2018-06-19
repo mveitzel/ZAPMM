@@ -2,7 +2,8 @@
 Zimbabwean Agro-Pastoral Management Model: an Agent-Based Model in NetLogo created with farmer-researchers
 
 If you use this code, please cite the model:
-M. V. Eitzel, Kleber Tulio Neves, Jon Solera, K. B. Wilson, Abraham Mawere Ndlovu, Aaron C. Fisher, André Veski, Oluwasola E. Omoju, Emmanuel Mhike Hove. Zimbabwe Agro-Pastoral Management Model (ZAPMM): Musimboti wevanhu, zvipfuo nezvirimwa. Available at CoMSES.net ***DOI will appear here***
+
+Eitzel Solera, Mv, Neves, Kleber Tulio, Solera, Jon, Wilson, Kenneth B, Mawere Ndlovu, Abraham, Fisher, Aaron C, Veski, André, Omoju, Oluwasola E, Mhike Hove, Emmanuel (2018, June 19). “Zimbabwe Agro-Pastoral Management Model (ZAPMM): Musimboti wevanhu, zvipfuo nezvirimwa” (Version 1.0.0). CoMSES Computational Model Library. Retrieved from: https://www.comses.net/codebases/323685ea-3a71-44c1-9b95-a472a703e8cc/releases/1.0.0/
 
 
 This repository includes the model code in nlogo format, the Objectives, Design, and Details (ODD) document describing the model, in .doc format.  This version of the model includes timers which track setup time and run time.  It also includes all the files required to run multiple BehaviorSpace Experiments (model parameter combinations) on a high-performance cloud computing cluster (using qsub).  See the ODD for explanations of the behaviorspaces, which are split up for purposes of parallel computing. Finally, the repository includes the outputs of running those experiments on SabalCore Computing's cluster (http://www.sabalcore.com/) and R code analyzing the output, all of which is summarized in the ODD.
