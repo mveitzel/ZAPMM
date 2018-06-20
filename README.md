@@ -1,6 +1,5 @@
 # ZAPMM
-Zimbabwean Agro-Pastoral Management Model: Musimboti wevanhu, zvipfuo nezvirimwa
-An Agent-Based Model in NetLogo created with researcher-farmers
+Zimbabwean Agro-Pastoral Management Model: Musimboti wevanhu, zvipfuo nezvirimwa. An Agent-Based Model in NetLogo created with researcher-farmers.
 
 This model has been created with and for the researcher-farmers of the Muonde Trust (http://www.muonde.org/), a registered Zimbabwean non-governmental organization dedicated to fostering indigenous innovation. Model behaviors and parameters (*mashandiro nemisiyano nedzimwe model*) derive from a combination of literature review and the collected datasets from Muonde’s long-term (over 30 years) community-based research. The goals of this model are three-fold (*muzvikamu zvitatu*):
 
