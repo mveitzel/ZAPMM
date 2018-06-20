@@ -1,6 +1,11 @@
 # ZAPMM
 Zimbabwean Agro-Pastoral Management Model: an Agent-Based Model in NetLogo created with farmer-researchers
 
+This model has been created with and for the researcher-farmers of the Muonde Trust (http://www.muonde.org/), a registered Zimbabwean non-governmental organization dedicated to fostering indigenous innovation. Model behaviors and parameters derive from a combination of literature review and the collected datasets from Muonde’s long-term (over 30 years) community-based research. The goals of this model are three-fold:
+-A) To represent three components of a Zimbabwean agro-pastoral system (crops, woodland grazing area, and livestock) along with their key interactions and feedbacks and some of the human management decisions that may affect these components and their interactions.
+-B) To assess how climate variation (implemented in several different ways) and human management may affect the sustainability of the system as measured by the continued provisioning of crops, livestock, and woodland grazing area.
+-C) To provide a discussion tool for the community and local leaders to explore different management strategies for the agro-pastoral system, particularly in the face of climate change.
+
 If you use this code, please cite the model:
 
 Eitzel Solera, Mv, Neves, Kleber Tulio, Solera, Jon, Wilson, Kenneth B, Mawere Ndlovu, Abraham, Fisher, Aaron C, Veski, André, Omoju, Oluwasola E, Mhike Hove, Emmanuel (2018, June 19). “Zimbabwe Agro-Pastoral Management Model (ZAPMM): Musimboti wevanhu, zvipfuo nezvirimwa” (Version 1.0.0). CoMSES Computational Model Library. Retrieved from: https://www.comses.net/codebases/323685ea-3a71-44c1-9b95-a472a703e8cc/releases/1.0.0/
