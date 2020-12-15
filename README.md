@@ -11,8 +11,13 @@ C) To provide a discussion tool for the community and local leaders to explore d
 
 If you use this code, please cite the model:
 
-Eitzel Solera, Mv, Neves, Kleber Tulio, Solera, Jon, Wilson, Kenneth B, Mawere Ndlovu, Abraham, Fisher, Aaron C, Veski, André, Omoju, Oluwasola E, Mhike Hove, Emmanuel (2018, June 19). “Zimbabwe Agro-Pastoral Management Model (ZAPMM): Musimboti wevanhu, zvipfuo nezvirimwa.” (Version 1.0.0). CoMSES Computational Model Library. Retrieved from: https://www.comses.net/codebases/323685ea-3a71-44c1-9b95-a472a703e8cc/releases/1.0.0/
+Eitzel, MV, Neves, Kleber Tulio, Solera, Jon, Wilson, Kenneth B, Mawere Ndlovu, Abraham, Fisher, Aaron C, Veski, André, Omoju, Oluwasola E, Mhike Hove, Emmanuel (2018, June 19). “Zimbabwe Agro-Pastoral Management Model (ZAPMM): Musimboti wevanhu, zvipfuo nezvirimwa.” (Version 1.0.0). CoMSES Computational Model Library. Retrieved from: https://www.comses.net/codebases/323685ea-3a71-44c1-9b95-a472a703e8cc/releases/1.0.0/
 
+There are also two published papers presenting the results of High-Performance Computing parameter sweeps of the model:
+
+Eitzel, M. V.; Solera, J.; Wilson, K; Neves, K. T; Fisher, A.C.; Veski, A.; Omoju, O. E.; Mawere Ndlovu, A.; Mhike Hove, E. (2020) “Indigenous climate adaptation sovereignty in a Zimbabwean agro-pastoral system: exploring definitions of sustainability ‘success’ using a participatory agent-based model.” Ecology & Society 25(4), 13.
+
+Eitzel, M. V.; Solera, J.; Wilson, K; Neves, K. T; Fisher, A.C.; Veski, A.; Omoju, O. E.; Mawere Ndlovu, A.; Mhike Hove, E. (2020) “Using mixed methods to construct and analyze a participatory agent-based model of a complex Zimbabwean agro-pastoral system.” PLoS ONE 15(8), e0237638.
 
 This repository includes the model code in nlogo format, the Objectives, Design, and Details (ODD) document describing the model, in .doc format.  This version of the model includes timers which track setup time and run time.  It also includes all the files required to run multiple BehaviorSpace Experiments (model parameter combinations) on a high-performance cloud computing cluster (using qsub).  See the ODD for explanations of the behaviorspaces, which are split up for purposes of parallel computing. Finally, the repository includes the outputs of running those experiments on SabalCore Computing's cluster (http://www.sabalcore.com/) and R code analyzing the output, all of which is summarized in the ODD.
 
